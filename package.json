@@ -1,0 +1,15 @@
+{
+  "name": "shopwave",
+  "version": "1.0.0",
+  "description": "An eCommerce application built on MERN stack.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Parul Shrivastava",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

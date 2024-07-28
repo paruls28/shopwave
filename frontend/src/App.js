@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
+import {Outlet} from 'react-router-dom'
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <h1>Welcome to shop wave</h1>
-  )
-}
+    <>
+      <Header></Header>
+      <main className="py-3">
+        <Container>
+          <Outlet></Outlet>
+        </Container>
+      </main>
+      <Footer/>
+    </>
+  );
+};
 
-export default App
+export default App;
